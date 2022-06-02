@@ -34,16 +34,17 @@ def run():
         if get_notification_type() == NotificationType.DEFAULT.value:
             pass
         elif get_notification_type() == NotificationType.EMAIL.value:
-            SendEmail().send_main()
+            # SendEmail().send_main()
+            pass
         else:
             raise ValueError("通知类型配置错误，暂不支持该类型通知")
 
-        os.system(f"allure serve ./report/tmp -p 9999")
+        # os.system(f"allure serve ./report/tmp -p 9999")
     
     except Exception:
         # 如有异常，相关异常发送邮件
-        e = traceback.format_exc()
-        SendEmail().error_mail(e)
+        # e = traceback.format_exc()
+        # SendEmail().error_mail(e)
         raise
 
 if __name__ == '__main__':
