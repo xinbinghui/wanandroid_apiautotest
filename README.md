@@ -1,0 +1,2 @@
+# wanandroid_apiautotest
+针对wanandroid平台的pytest自动化测试框架，目前已完成登录、个人信息、收藏等测试场景，涵盖日志记录、allure测试报告生成、email邮件发送等功能
