@@ -1,0 +1,12 @@
+[32mINFO    [0m f:\WorkSpace\wanandroid_apiautotest\logs\info.log:logDecoratorl.py:30 
+=================================================================================
+测试标题: 新增收藏网址接口
+请求方式: POST
+请求头:   {'cookie': 'loginUserName_wanandroid_com=18800000001;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;JSESSIONID=6BE16892675B7E27CA5D7A804E405DA5;loginUserName=18800000001;token_pass=5d9b90bcb70640183e09d1e755ead823;'}
+请求路径: https://www.wanandroid.com/lg/collect/addtool/json
+请求内容: {'name': 9325, 'link': 'https://gitee.com/yu_xiao_qi/pytest-auto-api2'}
+依赖测试用例: 暂无依赖用例数据
+接口响应内容: {'data': {'desc': '', 'icon': '', 'id': 22650, 'link': 'https://gitee.com/yu_xiao_qi/pytest-auto-api2', 'name': '9325', 'order': 0, 'userId': 129462, 'visible': 1}, 'errorCode': 0, 'errorMsg': ''}
+接口响应时长: 0.124738 ms
+数据库断言数据: {'sql': None}
+=================================================================================

@@ -1,0 +1,12 @@
+[32mINFO    [0m f:\WorkSpace\wanandroid_apiautotest\logs\info.log:logDecoratorl.py:30 
+=================================================================================
+测试标题: 正常获取个人身份信息
+请求方式: GET
+请求头:   {'Content-Type': 'multipart/form-data;', 'cookie': 'loginUserName_wanandroid_com=18800000001;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;JSESSIONID=6BE16892675B7E27CA5D7A804E405DA5;loginUserName=18800000001;token_pass=5d9b90bcb70640183e09d1e755ead823;'}
+请求路径: https://www.wanandroid.com/user/lg/userinfo/json
+请求内容: None
+依赖测试用例: 暂无依赖用例数据
+接口响应内容: {'data': {'coinInfo': {'coinCount': 1346, 'level': 14, 'nickname': '', 'rank': '1668', 'userId': 129462, 'username': '1**00000001'}, 'collectArticleInfo': {'count': 11}, 'userInfo': {'admin': False, 'chapterTops': [], 'coinCount': 1346, 'collectIds': [-1, -1, -1, -1, 21630, -1, -1, -1, -1, -1, 22665], 'email': '', 'icon': '', 'id': 129462, 'nickname': '18800000001', 'password': '', 'publicName': '18800000001', 'token': '', 'type': 0, 'username': '18800000001'}}, 'errorCode': 0, 'errorMsg': ''}
+接口响应时长: 0.107812 ms
+数据库断言数据: {'sql': None}
+=================================================================================
