@@ -1,0 +1,12 @@
+[32mINFO    [0m f:\WorkSpace\wanandroid_apiautotest\logs\info.log:logDecoratorl.py:30 
+=================================================================================
+测试标题: 未登录状态下新增收藏网址
+请求方式: POST
+请求头:   {'Content-Type': 'multipart/form-data; boundary=d3d961a5b60d4e9eb5b9ca82c1e091f4'}
+请求路径: https://www.wanandroid.com/lg/collect/addtool/json
+请求内容: {'name': '2482', 'link': 'https://gitee.com/yu_xiao_qi/pytest-auto-api2'}
+依赖测试用例: 暂无依赖用例数据
+接口响应内容: {'errorCode': -1001, 'errorMsg': '请先登录！'}
+接口响应时长: 0.106056 ms
+数据库断言数据: {'sql': None}
+=================================================================================
