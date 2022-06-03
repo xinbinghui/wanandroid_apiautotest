@@ -1,61 +1,61 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Thu Jun 02 20:48:25 CST 2022","Thu Jun 02 20:48:25 CST 2022","188","test_case.Login","test_login","TestLogin","","","test_login[输入非1开头的手机号码]","
+"passed","Fri Jun 03 13:55:25 CST 2022","Fri Jun 03 13:55:25 CST 2022","194","test_case.Login","test_login","TestLogin","","","test_login[登录密码为空]","
         :param :
         :return:
         "
-"passed","Thu Jun 02 20:48:26 CST 2022","Thu Jun 02 20:48:26 CST 2022","137","test_case.UserInfo","test_get_user_info","TestGetUserInfo","","","test_get_user_info[正常获取个人身份信息]","
+"passed","Fri Jun 03 13:55:26 CST 2022","Fri Jun 03 13:55:26 CST 2022","151","test_case.collect","test_collect_add_tool","TestCollectAddTool","","","test_collect_add_tool[新增收藏网址接口]","
         :param :
         :return:
         "
-"passed","Thu Jun 02 20:48:27 CST 2022","Thu Jun 02 20:48:29 CST 2022","2179","test_case.collect","test_collect_tool_list","TestCollectToolList","","","test_collect_tool_list[查看收藏网址列表接口]","
+"passed","Fri Jun 03 13:55:25 CST 2022","Fri Jun 03 13:55:25 CST 2022","221","test_case.Login","test_login","TestLogin","","","test_login[输入手机号码小于11位]","
         :param :
         :return:
         "
-"passed","Thu Jun 02 20:48:25 CST 2022","Thu Jun 02 20:48:25 CST 2022","210","test_case.Login","test_login","TestLogin","","","test_login[输入错误的密码]","
+"passed","Fri Jun 03 13:55:25 CST 2022","Fri Jun 03 13:55:25 CST 2022","213","test_case.Login","test_login","TestLogin","","","test_login[输入手机号码大于于11位]","
         :param :
         :return:
         "
-"passed","Thu Jun 02 20:48:26 CST 2022","Thu Jun 02 20:48:26 CST 2022","111","test_case.collect","test_collect_add_tool","TestCollectAddTool","","","test_collect_add_tool[未登录状态下新增收藏网址]","
+"passed","Fri Jun 03 13:55:24 CST 2022","Fri Jun 03 13:55:24 CST 2022","596","test_case.Login","test_login","TestLogin","","","test_login[正常登录]","
         :param :
         :return:
         "
-"passed","Thu Jun 02 20:48:25 CST 2022","Thu Jun 02 20:48:26 CST 2022","193","test_case.Login","test_login","TestLogin","","","test_login[输入手机号码大于于11位]","
+"passed","Fri Jun 03 13:55:29 CST 2022","Fri Jun 03 13:55:29 CST 2022","368","test_case.collect","test_collect_update_tool","TestCollectUpdateTool","","","test_collect_update_tool[编辑收藏网址]","
         :param :
         :return:
         "
-"passed","Thu Jun 02 20:48:26 CST 2022","Thu Jun 02 20:48:26 CST 2022","209","test_case.Login","test_login","TestLogin","","","test_login[手机号码为空]","
+"passed","Fri Jun 03 13:55:26 CST 2022","Fri Jun 03 13:55:26 CST 2022","358","test_case.collect","test_collect_delete_tool","TestCollectDeleteTool","","","test_collect_delete_tool[正常删除收藏网站]","
         :param :
         :return:
         "
-"passed","Thu Jun 02 20:48:25 CST 2022","Thu Jun 02 20:48:25 CST 2022","184","test_case.Login","test_login","TestLogin","","","test_login[登录密码为空]","
+"passed","Fri Jun 03 13:55:25 CST 2022","Fri Jun 03 13:55:25 CST 2022","174","test_case.Login","test_login","TestLogin","","","test_login[输入非1开头的手机号码]","
         :param :
         :return:
         "
-"passed","Thu Jun 02 20:48:26 CST 2022","Thu Jun 02 20:48:27 CST 2022","335","test_case.collect","test_collect_delete_tool","TestCollectDeleteTool","","","test_collect_delete_tool[正常删除收藏网站]","
+"passed","Fri Jun 03 13:55:26 CST 2022","Fri Jun 03 13:55:26 CST 2022","189","test_case.Login","test_login","TestLogin","","","test_login[手机号码首位包含空格]","
         :param :
         :return:
         "
-"passed","Thu Jun 02 20:48:24 CST 2022","Thu Jun 02 20:48:25 CST 2022","846","test_case.Login","test_login","TestLogin","","","test_login[正常登录]","
+"passed","Fri Jun 03 13:55:24 CST 2022","Fri Jun 03 13:55:25 CST 2022","216","test_case.Login","test_login","TestLogin","","","test_login[输入错误的密码]","
         :param :
         :return:
         "
-"passed","Thu Jun 02 20:48:26 CST 2022","Thu Jun 02 20:48:26 CST 2022","203","test_case.Login","test_login","TestLogin","","","test_login[手机号码首位包含空格]","
+"passed","Fri Jun 03 13:55:25 CST 2022","Fri Jun 03 13:55:26 CST 2022","208","test_case.Login","test_login","TestLogin","","","test_login[手机号码为空]","
         :param :
         :return:
         "
-"skipped","Thu Jun 02 20:48:27 CST 2022","Thu Jun 02 20:48:27 CST 2022","0","test_case.collect","test_collect_delete_tool","TestCollectDeleteTool","","","test_collect_delete_tool[正常删除不存在的ID数据(接口未完成此功能, 跳过该条用例)]","
+"passed","Fri Jun 03 13:55:26 CST 2022","Fri Jun 03 13:55:29 CST 2022","2228","test_case.collect","test_collect_tool_list","TestCollectToolList","","","test_collect_tool_list[查看收藏网址列表接口]","
         :param :
         :return:
         "
-"passed","Thu Jun 02 20:48:29 CST 2022","Thu Jun 02 20:48:29 CST 2022","318","test_case.collect","test_collect_update_tool","TestCollectUpdateTool","","","test_collect_update_tool[编辑收藏网址]","
+"skipped","Fri Jun 03 13:55:26 CST 2022","Fri Jun 03 13:55:26 CST 2022","0","test_case.collect","test_collect_delete_tool","TestCollectDeleteTool","","","test_collect_delete_tool[正常删除不存在的ID数据(接口未完成此功能, 跳过该条用例)]","
         :param :
         :return:
         "
-"passed","Thu Jun 02 20:48:26 CST 2022","Thu Jun 02 20:48:26 CST 2022","121","test_case.collect","test_collect_add_tool","TestCollectAddTool","","","test_collect_add_tool[新增收藏网址接口]","
+"passed","Fri Jun 03 13:55:26 CST 2022","Fri Jun 03 13:55:26 CST 2022","117","test_case.UserInfo","test_get_user_info","TestGetUserInfo","","","test_get_user_info[正常获取个人身份信息]","
         :param :
         :return:
         "
-"passed","Thu Jun 02 20:48:25 CST 2022","Thu Jun 02 20:48:25 CST 2022","201","test_case.Login","test_login","TestLogin","","","test_login[输入手机号码小于11位]","
+"passed","Fri Jun 03 13:55:26 CST 2022","Fri Jun 03 13:55:26 CST 2022","106","test_case.collect","test_collect_add_tool","TestCollectAddTool","","","test_collect_add_tool[未登录状态下新增收藏网址]","
         :param :
         :return:
         "
