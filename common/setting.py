@@ -20,7 +20,7 @@ class ConfigHandler:
 
     file_path = os.path.join(root_path, 'files' + _SLASH)
 
-    log_path = os.path.join(root_path, 'logs' + _SLASH + 'log.log')
+    log_path = os.path.join(root_path, 'logs' + _SLASH)
 
     info_log_path = os.path.join(root_path, 'logs' + _SLASH + 'info.log')
 

@@ -1,0 +1,310 @@
+{
+  "uid" : "ad394122dafb1bef",
+  "name" : "test_collect_tool_list[查看收藏网址列表接口]",
+  "fullName" : "test_case.collect.test_collect_tool_list.TestCollectToolList#test_collect_tool_list",
+  "historyId" : "50c9adf690adefa47e1c8637a9ad1bf5",
+  "time" : {
+    "start" : 1654239464834,
+    "stop" : 1654239467272,
+    "duration" : 2438
+  },
+  "description" : "\n        :param :\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    :param :\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1654239461410,
+      "stop" : 1654239461456,
+      "duration" : 46
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "clear_report",
+    "time" : {
+      "start" : 1654239461456,
+      "stop" : 1654239461456,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "work_login_init",
+    "time" : {
+      "start" : 1654239461456,
+      "stop" : 1654239462019,
+      "duration" : 563
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "write_case_process",
+    "time" : {
+      "start" : 1654239462019,
+      "stop" : 1654239462057,
+      "duration" : 38
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "case_skip",
+    "time" : {
+      "start" : 1654239464834,
+      "stop" : 1654239464834,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        :param :\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "请求URL: https://www.wanandroid.com/lg/collect/usertools/json",
+      "time" : {
+        "start" : 1654239465183,
+        "stop" : 1654239465183,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "请求方式: GET",
+      "time" : {
+        "start" : 1654239465183,
+        "stop" : 1654239465183,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "请求头: ",
+      "time" : {
+        "start" : 1654239465183,
+        "stop" : 1654239465183,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "224c88c94d14768a",
+        "name" : "请求头: ",
+        "source" : "224c88c94d14768a.json",
+        "type" : "application/json",
+        "size" : 270
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "请求数据: ",
+      "time" : {
+        "start" : 1654239465183,
+        "stop" : 1654239465183,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "803c9b25fca14d52",
+        "name" : "请求数据: ",
+        "source" : "803c9b25fca14d52.json",
+        "type" : "application/json",
+        "size" : 20
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "依赖数据: ",
+      "time" : {
+        "start" : 1654239465183,
+        "stop" : 1654239465183,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c9615f3f0639bc50",
+        "name" : "依赖数据: ",
+        "source" : "c9615f3f0639bc50.json",
+        "type" : "application/json",
+        "size" : 32
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "预期数据: ",
+      "time" : {
+        "start" : 1654239465183,
+        "stop" : 1654239465183,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "de583f8486a7a09a",
+        "name" : "预期数据: ",
+        "source" : "de583f8486a7a09a.json",
+        "type" : "application/json",
+        "size" : 90
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "响应耗时(s): 0.168977",
+      "time" : {
+        "start" : 1654239465183,
+        "stop" : 1654239465183,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "9cfd20c6d66b22fe",
+      "name" : "log",
+      "source" : "9cfd20c6d66b22fe.txt",
+      "type" : "text/plain",
+      "size" : 325614
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 7,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "clear_report::0",
+    "time" : {
+      "start" : 1654239467620,
+      "stop" : 1654239467620,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "开发平台接口"
+  }, {
+    "name" : "feature",
+    "value" : "收藏模块"
+  }, {
+    "name" : "story",
+    "value" : "收藏网址列表接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case.collect"
+  }, {
+    "name" : "suite",
+    "value" : "test_collect_tool_list"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCollectToolList"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-N189VGS"
+  }, {
+    "name" : "thread",
+    "value" : "9680-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.collect.test_collect_tool_list"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "caseinfo",
+    "value" : "{'method': 'GET', 'is_run': None, 'url': 'https://www.wanandroid.com/lg/collect/usertools/json', 'detail': '查看收藏网址列表接口', 'headers': {'Content-Type': 'multipart/form-data;', 'cookie': '$cache{login_cookie}'}, 'requestType': 'PARAMS', 'data': {'tester': 'qiyu'}, 'dependence_case': False, 'dependence_case_data': {'dependence_case_data': None}, 'sql': None, 'assert': {'errorCode': {'jsonpath': '$.errorCode', 'type': '==', 'value': 0, 'AssertType': None}}, 'setup_sql': None}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ad394122dafb1bef.json",
+  "parameterValues" : [ "{'method': 'GET', 'is_run': None, 'url': 'https://www.wanandroid.com/lg/collect/usertools/json', 'detail': '查看收藏网址列表接口', 'headers': {'Content-Type': 'multipart/form-data;', 'cookie': '$cache{login_cookie}'}, 'requestType': 'PARAMS', 'data': {'tester': 'qiyu'}, 'dependence_case': False, 'dependence_case_data': {'dependence_case_data': None}, 'sql': None, 'assert': {'errorCode': {'jsonpath': '$.errorCode', 'type': '==', 'value': 0, 'AssertType': None}}, 'setup_sql': None}" ]
+}

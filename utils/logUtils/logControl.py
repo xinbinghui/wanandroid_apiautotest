@@ -2,7 +2,7 @@ import logging
 import colorlog
 from common.setting import ConfigHandler
 from logging import handlers
-
+import os
 
 class LogHandler:
 
@@ -16,6 +16,9 @@ class LogHandler:
 
     def __init__(self, filename, level='info', when='D', backCount=3, fmt='%(levelname)s-%(asctime)s  '
                                                                           '%(name)s:%(filename)s:[line:%(lineno)d] %(message)s'):
+        self.log_path = ConfigHandler.log_path
+        if not os.path.exists(self.log_path):
+            os.mkdir(self.log_path)
         self.logger = logging.getLogger(filename)
         self.log_color_config = {
             'DEBUG': 'cyan',
@@ -54,7 +57,6 @@ class LogHandler:
         # 把对象加到logger里
         self.logger.addHandler(stream_hanler)
         self.logger.addHandler(file_handler)
-        self.log_path = ConfigHandler.log_path
 
 INFO = LogHandler(ConfigHandler.info_log_path, level='info')
 ERROR = LogHandler(ConfigHandler.error_log_path, level='error')

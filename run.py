@@ -8,7 +8,6 @@ from utils.otherUtils.get_conf_data import get_notification_type
 from enums.notificationType_enum import NotificationType
 from utils.noticUtils.sendmailControl import SendEmail
 
-
 def run():
     # 从配置文件中获取项目名称
     try:

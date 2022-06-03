@@ -9,13 +9,13 @@
         "name" : "登录",
         "children" : [ {
           "name" : "test_login[正常登录]",
-          "uid" : "a43acfad398c5002",
+          "uid" : "4a22ad9996be0eff",
           "parentUid" : "e3c033ea17b1147a8f3c87af8a5dc062",
           "status" : "passed",
           "time" : {
-            "start" : 1654235724188,
-            "stop" : 1654235724784,
-            "duration" : 596
+            "start" : 1654239462057,
+            "stop" : 1654239462655,
+            "duration" : 598
           },
           "flaky" : false,
           "newFailed" : false,
@@ -26,13 +26,13 @@
           "parameters" : [ "{'method': 'POST', 'is_run': None, 'url': 'https://www.wanandroid.com/user/login', 'detail': '正常登录', 'headers': {'Content-Type': 'multipart/form-data;'}, 'requestType': 'DATE', 'data': {'username': '18800000001', 'password': '123456'}, 'dependence_case': False, 'dependence_case_data': {'dependence_case_data': None}, 'sql': None, 'assert': {'errorCode': {'jsonpath': '$.errorCode', 'type': '==', 'value': 0, 'AssertType': None}, 'username': {'jsonpath': '$.data.username', 'type': '==', 'value': '18800000001', 'AssertType': None}}, 'setup_sql': None}" ]
         }, {
           "name" : "test_login[输入错误的密码]",
-          "uid" : "b5931bb0fe7350bd",
+          "uid" : "3c73671e68da3147",
           "parentUid" : "e3c033ea17b1147a8f3c87af8a5dc062",
           "status" : "passed",
           "time" : {
-            "start" : 1654235724788,
-            "stop" : 1654235725004,
-            "duration" : 216
+            "start" : 1654239462659,
+            "stop" : 1654239462856,
+            "duration" : 197
           },
           "flaky" : false,
           "newFailed" : false,
@@ -43,13 +43,13 @@
           "parameters" : [ "{'method': 'POST', 'is_run': None, 'url': 'https://www.wanandroid.com/user/login', 'detail': '输入错误的密码', 'headers': {'Content-Type': 'multipart/form-data;'}, 'requestType': 'DATE', 'data': {'username': '18800000001', 'password': '12345'}, 'dependence_case': False, 'dependence_case_data': {'dependence_case_data': None}, 'sql': None, 'assert': {'errorCode': {'jsonpath': '$.errorCode', 'type': '==', 'value': -1, 'AssertType': None}, 'errorMsg': {'jsonpath': '$.errorMsg', 'type': '==', 'value': '账号密码不匹配！', 'AssertType': None}}, 'setup_sql': None}" ]
         }, {
           "name" : "test_login[登录密码为空]",
-          "uid" : "d2d7158e9657c81e",
+          "uid" : "39c689c672913064",
           "parentUid" : "e3c033ea17b1147a8f3c87af8a5dc062",
           "status" : "passed",
           "time" : {
-            "start" : 1654235725008,
-            "stop" : 1654235725202,
-            "duration" : 194
+            "start" : 1654239462859,
+            "stop" : 1654239463057,
+            "duration" : 198
           },
           "flaky" : false,
           "newFailed" : false,
@@ -60,13 +60,13 @@
           "parameters" : [ "{'method': 'POST', 'is_run': None, 'url': 'https://www.wanandroid.com/user/login', 'detail': '登录密码为空', 'headers': {'Content-Type': 'multipart/form-data;'}, 'requestType': 'DATE', 'data': {'username': '18800000001', 'password': None}, 'dependence_case': False, 'dependence_case_data': {'dependence_case_data': None}, 'sql': None, 'assert': {'errorCode': {'jsonpath': '$.errorCode', 'type': '==', 'value': -1, 'AssertType': None}, 'errorMsg': {'jsonpath': '$.errorMsg', 'type': '==', 'value': '账号密码不匹配！', 'AssertType': None}}, 'setup_sql': None}" ]
         }, {
           "name" : "test_login[输入非1开头的手机号码]",
-          "uid" : "87ce31850be66781",
+          "uid" : "8faa6c3d9451fc7b",
           "parentUid" : "e3c033ea17b1147a8f3c87af8a5dc062",
           "status" : "passed",
           "time" : {
-            "start" : 1654235725208,
-            "stop" : 1654235725382,
-            "duration" : 174
+            "start" : 1654239463062,
+            "stop" : 1654239463276,
+            "duration" : 214
           },
           "flaky" : false,
           "newFailed" : false,
@@ -77,13 +77,13 @@
           "parameters" : [ "{'method': 'POST', 'is_run': None, 'url': 'https://www.wanandroid.com/user/login', 'detail': '输入非1开头的手机号码', 'headers': {'Content-Type': 'multipart/form-data;'}, 'requestType': 'DATE', 'data': {'username': '28800000001', 'password': '12345'}, 'dependence_case': False, 'dependence_case_data': {'dependence_case_data': None}, 'sql': None, 'assert': {'errorCode': {'jsonpath': '$.errorCode', 'type': '==', 'value': -1, 'AssertType': None}, 'errorMsg': {'jsonpath': '$.errorMsg', 'type': '==', 'value': '账号密码不匹配！', 'AssertType': None}}, 'setup_sql': None}" ]
         }, {
           "name" : "test_login[输入手机号码小于11位]",
-          "uid" : "f917e6c7501f8884",
+          "uid" : "803c9c8235f826fe",
           "parentUid" : "e3c033ea17b1147a8f3c87af8a5dc062",
           "status" : "passed",
           "time" : {
-            "start" : 1654235725386,
-            "stop" : 1654235725607,
-            "duration" : 221
+            "start" : 1654239463282,
+            "stop" : 1654239463463,
+            "duration" : 181
           },
           "flaky" : false,
           "newFailed" : false,
@@ -94,13 +94,13 @@
           "parameters" : [ "{'method': 'POST', 'is_run': None, 'url': 'https://www.wanandroid.com/user/login', 'detail': '输入手机号码小于11位', 'headers': {'Content-Type': 'multipart/form-data;'}, 'requestType': 'DATE', 'data': {'username': '1880000000', 'password': '12345'}, 'dependence_case': False, 'dependence_case_data': {'dependence_case_data': None}, 'sql': None, 'assert': {'errorCode': {'jsonpath': '$.errorCode', 'type': '==', 'value': -1, 'AssertType': None}, 'errorMsg': {'jsonpath': '$.errorMsg', 'type': '==', 'value': '账号密码不匹配！', 'AssertType': None}}, 'setup_sql': None}" ]
         }, {
           "name" : "test_login[输入手机号码大于于11位]",
-          "uid" : "e35b2713241b830",
+          "uid" : "d4dfaf997dd735e",
           "parentUid" : "e3c033ea17b1147a8f3c87af8a5dc062",
           "status" : "passed",
           "time" : {
-            "start" : 1654235725612,
-            "stop" : 1654235725825,
-            "duration" : 213
+            "start" : 1654239463467,
+            "stop" : 1654239463655,
+            "duration" : 188
           },
           "flaky" : false,
           "newFailed" : false,
@@ -111,13 +111,13 @@
           "parameters" : [ "{'method': 'POST', 'is_run': None, 'url': 'https://www.wanandroid.com/user/login', 'detail': '输入手机号码大于于11位', 'headers': {'Content-Type': 'multipart/form-data;'}, 'requestType': 'DATE', 'data': {'username': '18800000000', 'password': '12345'}, 'dependence_case': False, 'dependence_case_data': {'dependence_case_data': None}, 'sql': None, 'assert': {'errorCode': {'jsonpath': '$.errorCode', 'type': '==', 'value': -1, 'AssertType': None}, 'errorMsg': {'jsonpath': '$.errorMsg', 'type': '==', 'value': '账号密码不匹配！', 'AssertType': None}}, 'setup_sql': None}" ]
         }, {
           "name" : "test_login[手机号码为空]",
-          "uid" : "b4b910a02dbfdb2a",
+          "uid" : "ca1be61dfc3ee6db",
           "parentUid" : "e3c033ea17b1147a8f3c87af8a5dc062",
           "status" : "passed",
           "time" : {
-            "start" : 1654235725830,
-            "stop" : 1654235726038,
-            "duration" : 208
+            "start" : 1654239463660,
+            "stop" : 1654239463895,
+            "duration" : 235
           },
           "flaky" : false,
           "newFailed" : false,
@@ -128,13 +128,13 @@
           "parameters" : [ "{'method': 'POST', 'is_run': None, 'url': 'https://www.wanandroid.com/user/login', 'detail': '手机号码为空', 'headers': {'Content-Type': 'multipart/form-data;'}, 'requestType': 'DATE', 'data': {'username': None, 'password': '12345'}, 'dependence_case': False, 'dependence_case_data': {'dependence_case_data': None}, 'sql': None, 'assert': {'errorCode': {'jsonpath': '$.errorCode', 'type': '==', 'value': -1, 'AssertType': None}, 'errorMsg': {'jsonpath': '$.errorMsg', 'type': '==', 'value': '账号密码不匹配！', 'AssertType': None}}, 'setup_sql': None}" ]
         }, {
           "name" : "test_login[手机号码首位包含空格]",
-          "uid" : "dad3369bea6ff63",
+          "uid" : "c2cfcf9894dee72f",
           "parentUid" : "e3c033ea17b1147a8f3c87af8a5dc062",
           "status" : "passed",
           "time" : {
-            "start" : 1654235726042,
-            "stop" : 1654235726231,
-            "duration" : 189
+            "start" : 1654239463899,
+            "stop" : 1654239464093,
+            "duration" : 194
           },
           "flaky" : false,
           "newFailed" : false,
@@ -153,13 +153,13 @@
         "name" : "个人信息接口",
         "children" : [ {
           "name" : "test_get_user_info[正常获取个人身份信息]",
-          "uid" : "9c67cf00aeef19ea",
+          "uid" : "ac51e2a384f7c26d",
           "parentUid" : "58552d046bc58e6cafaaa2b68b7a5875",
           "status" : "passed",
           "time" : {
-            "start" : 1654235726235,
-            "stop" : 1654235726352,
-            "duration" : 117
+            "start" : 1654239464099,
+            "stop" : 1654239464236,
+            "duration" : 137
           },
           "flaky" : false,
           "newFailed" : false,
@@ -178,13 +178,13 @@
         "name" : "收藏网址接口",
         "children" : [ {
           "name" : "test_collect_add_tool[新增收藏网址接口]",
-          "uid" : "39fc7c4eb9840ab6",
+          "uid" : "7ad851dd6b3c3cf5",
           "parentUid" : "0291dbf6a89d055313f6c18901a55625",
           "status" : "passed",
           "time" : {
-            "start" : 1654235726356,
-            "stop" : 1654235726507,
-            "duration" : 151
+            "start" : 1654239464240,
+            "stop" : 1654239464367,
+            "duration" : 127
           },
           "flaky" : false,
           "newFailed" : false,
@@ -192,15 +192,15 @@
           "newBroken" : false,
           "retriesCount" : 0,
           "retriesStatusChange" : false,
-          "parameters" : [ "{'method': 'POST', 'is_run': None, 'url': 'https://www.wanandroid.com/lg/collect/addtool/json', 'detail': '新增收藏网址接口', 'headers': {'cookie': '$cache{login_cookie}'}, 'requestType': 'DATE', 'data': {'name': 4409, 'link': 'https://gitee.com/yu_xiao_qi/pytest-auto-api2'}, 'dependence_case': False, 'dependence_case_data': {'dependence_case_data': None}, 'sql': None, 'assert': {'errorCode': {'jsonpath': '$.errorCode', 'type': '==', 'value': 0, 'AssertType': None}}, 'setup_sql': None}" ]
+          "parameters" : [ "{'method': 'POST', 'is_run': None, 'url': 'https://www.wanandroid.com/lg/collect/addtool/json', 'detail': '新增收藏网址接口', 'headers': {'cookie': '$cache{login_cookie}'}, 'requestType': 'DATE', 'data': {'name': 1609, 'link': 'https://gitee.com/yu_xiao_qi/pytest-auto-api2'}, 'dependence_case': False, 'dependence_case_data': {'dependence_case_data': None}, 'sql': None, 'assert': {'errorCode': {'jsonpath': '$.errorCode', 'type': '==', 'value': 0, 'AssertType': None}}, 'setup_sql': None}" ]
         }, {
           "name" : "test_collect_add_tool[未登录状态下新增收藏网址]",
-          "uid" : "760e74f4a539c713",
+          "uid" : "8e54a08b5e7d34dd",
           "parentUid" : "0291dbf6a89d055313f6c18901a55625",
           "status" : "passed",
           "time" : {
-            "start" : 1654235726511,
-            "stop" : 1654235726617,
+            "start" : 1654239464371,
+            "stop" : 1654239464477,
             "duration" : 106
           },
           "flaky" : false,
@@ -209,20 +209,20 @@
           "newBroken" : false,
           "retriesCount" : 0,
           "retriesStatusChange" : false,
-          "parameters" : [ "{'method': 'POST', 'is_run': None, 'url': 'https://www.wanandroid.com/lg/collect/addtool/json', 'detail': '未登录状态下新增收藏网址', 'headers': {'Content-Type': 'multipart/form-data;'}, 'requestType': 'DATE', 'data': {'name': 9026, 'link': 'https://gitee.com/yu_xiao_qi/pytest-auto-api2'}, 'dependence_case': False, 'dependence_case_data': {'dependence_case_data': None}, 'sql': None, 'assert': {'errorCode': {'jsonpath': '$.errorCode', 'type': '==', 'value': -1001, 'AssertType': None}, 'errorMsg': {'jsonpath': '$.errorMsg', 'type': '==', 'value': '请先登录！', 'AssertType': None}}, 'setup_sql': None}" ]
+          "parameters" : [ "{'method': 'POST', 'is_run': None, 'url': 'https://www.wanandroid.com/lg/collect/addtool/json', 'detail': '未登录状态下新增收藏网址', 'headers': {'Content-Type': 'multipart/form-data;'}, 'requestType': 'DATE', 'data': {'name': 6832, 'link': 'https://gitee.com/yu_xiao_qi/pytest-auto-api2'}, 'dependence_case': False, 'dependence_case_data': {'dependence_case_data': None}, 'sql': None, 'assert': {'errorCode': {'jsonpath': '$.errorCode', 'type': '==', 'value': -1001, 'AssertType': None}, 'errorMsg': {'jsonpath': '$.errorMsg', 'type': '==', 'value': '请先登录！', 'AssertType': None}}, 'setup_sql': None}" ]
         } ],
         "uid" : "0291dbf6a89d055313f6c18901a55625"
       }, {
         "name" : "删除收藏网站接口",
         "children" : [ {
           "name" : "test_collect_delete_tool[正常删除收藏网站]",
-          "uid" : "ee67791ff0c2e9bf",
+          "uid" : "93c4f989a92106a6",
           "parentUid" : "d044a4f41b78ec92764652ee8b4e90d6",
           "status" : "passed",
           "time" : {
-            "start" : 1654235726621,
-            "stop" : 1654235726979,
-            "duration" : 358
+            "start" : 1654239464481,
+            "stop" : 1654239464825,
+            "duration" : 344
           },
           "flaky" : false,
           "newFailed" : false,
@@ -233,12 +233,12 @@
           "parameters" : [ "{'method': 'POST', 'is_run': None, 'url': 'https://www.wanandroid.com/lg/collect/deletetool/json', 'detail': '正常删除收藏网站', 'headers': {'Content-Type': 'multipart/form-data;', 'cookie': '$cache{login_cookie}'}, 'requestType': 'DATE', 'data': {'id': None, 'test': None}, 'dependence_case': True, 'dependence_case_data': [{'case_id': 'collect_addtool_01', 'dependent_data': [{'dependent_type': 'response', 'jsonpath': '$.data.id', 'replace_key': '$.data.id'}, {'dependent_type': 'response', 'jsonpath': '$.data', 'replace_key': '$.data.test'}]}], 'sql': None, 'assert': {'errorCode': {'jsonpath': '$.errorCode', 'type': '==', 'value': 0, 'AssertType': None}}, 'setup_sql': None}" ]
         }, {
           "name" : "test_collect_delete_tool[正常删除不存在的ID数据(接口未完成此功能, 跳过该条用例)]",
-          "uid" : "d9e716fcbcaf46ae",
+          "uid" : "159a007e0feb7f96",
           "parentUid" : "d044a4f41b78ec92764652ee8b4e90d6",
           "status" : "skipped",
           "time" : {
-            "start" : 1654235726983,
-            "stop" : 1654235726983,
+            "start" : 1654239464828,
+            "stop" : 1654239464828,
             "duration" : 0
           },
           "flaky" : false,
@@ -254,13 +254,13 @@
         "name" : "收藏网址列表接口",
         "children" : [ {
           "name" : "test_collect_tool_list[查看收藏网址列表接口]",
-          "uid" : "1c98ed6fd173269c",
+          "uid" : "ad394122dafb1bef",
           "parentUid" : "ce345732372775d84682212d769e1e30",
           "status" : "passed",
           "time" : {
-            "start" : 1654235726990,
-            "stop" : 1654235729218,
-            "duration" : 2228
+            "start" : 1654239464834,
+            "stop" : 1654239467272,
+            "duration" : 2438
           },
           "flaky" : false,
           "newFailed" : false,
@@ -275,13 +275,13 @@
         "name" : "编辑收藏网址接口",
         "children" : [ {
           "name" : "test_collect_update_tool[编辑收藏网址]",
-          "uid" : "4be9ef9b59ffb79d",
+          "uid" : "fbbadf62e4757e0c",
           "parentUid" : "b6c390b42ff553ac57d0cef854693996",
           "status" : "passed",
           "time" : {
-            "start" : 1654235729224,
-            "stop" : 1654235729592,
-            "duration" : 368
+            "start" : 1654239467277,
+            "stop" : 1654239467617,
+            "duration" : 340
           },
           "flaky" : false,
           "newFailed" : false,
